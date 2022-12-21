@@ -1,16 +1,164 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Practical-10</title>
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
-  </head>
-  <body>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<style>
+.dropdown-submenu {
+position: relative;
+}
 
-    <h1 class="text-center m-5">Practical-10</h1>
+.dropdown-submenu a::after {
+transform: rotate(-90deg);
+position: absolute;
+right: 6px;
+top: .8em;
+}
 
-    <script src="../js/bootstrap.bundle.min.js"></script>
-  </body>
+.dropdown-submenu .dropdown-menu {
+top: 0;
+left: 100%;
+margin-left: .1rem;
+margin-right: .1rem;
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+<a class="navbar-brand" href="#">GPH</a>
+<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+<li class="nav-item active">
+<a class="nav-link" href="#">Home</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
+data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+ODD SEM
+</a>
+<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Sem 1</a>
+<ul class="dropdown-menu">
+<li>
+<div class="btn-group">
+<button type="button" class="btn btn-secondary">Maths-1</button>
+<button type="button" class="btn btn-secondary">Computer Progrmming</button>
+<button type="button" class="btn btn-secondary">FEE</button>
+<button type="button" class="btn btn-secondary">English</button>
+<button type="button" class="btn btn-secondary">ES</button>
+<button type="button" class="btn btn-secondary">Sport & Yoga</button>
+<button type="button" class="btn btn-secondary">FCA</button>
+</div>
+</li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Sem 3</a>
+<ul class="dropdown-menu">
+<li>
+<div class="btn-group">
+<button type="button" class="btn btn-secondary">Python</button>
+<button type="button" class="btn btn-secondary">DSA</button>
+<button type="button" class="btn btn-secondary">BOS</button>
+<button type="button" class="btn btn-secondary">RWPD</button>
+<button type="button" class="btn btn-secondary">RDBMS</button>
+<button type="button" class="btn btn-secondary">Internship-1</button>
+</div>
+</li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Sem 5</a>
+<ul class="dropdown-menu">
+<li>
+<div class="btn-group">
+<button type="button" class="btn btn-secondary">CMT</button>
+<button type="button" class="btn btn-secondary">CNS</button>
+<button type="button" class="btn btn-secondary">DWPD</button>
+<button type="button" class="btn btn-secondary">JAVA</button>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink"
+data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+EVEN SEM
+</a>
+<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Sem 2</a>
+<ul class="dropdown-menu">
+<li>
+<div class="btn-group">
+<button type="button" class="btn btn-secondary">MATHS-2</button>
+<button type="button" class="btn btn-secondary">Indian Constitution</button>
+<button type="button" class="btn btn-secondary">BOOP</button>
+<button type="button" class="btn btn-secondary">Basic Digital Electronic</button>
+<button type="button" class="btn btn-secondary">SWPD</button>
+<button type="button" class="btn btn-secondary">ECWP</button>
+
+</div>
+</li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Sem 4</a>
+<ul class="dropdown-menu">
+<li>
+<div class="btn-group">
+<button type="button" class="btn btn-secondary">FSD</button>
+<button type="button" class="btn btn-secondary">.net programming</button>
+<button type="button" class="btn btn-secondary">ADBMS</button>
+<button type="button" class="btn btn-secondary">Computer Network</button>
+<button type="button" class="btn btn-secondary">Computer Organization & Architechture</button>
+</div>
+</li>
+</ul>
+</li>
+<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Sem 6</a>
+<ul class="dropdown-menu">
+<li>
+<div class="btn-group">
+<button type="button" class="btn btn-secondary">PPUD</button>
+<button type="button" class="btn btn-secondary">A JAVA</button>
+<button type="button" class="btn btn-secondary">NMA</button>
+<button type="button" class="btn btn-secondary">MCAD</button>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<script>
+$('.dropdown-menu a.dropdown-toggle').on('click', function (e) {
+if (!$(this).next().hasClass('show')) {
+$(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+}
+var $subMenu = $(this).next(".dropdown-menu");
+$subMenu.toggleClass('show');
+
+
+$(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+$('.dropdown-submenu .show').removeClass("show");
+});
+
+
+return false;
+});
+</script>
+</body>
 </html>
