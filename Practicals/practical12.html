@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practical-12</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+  <div class="text-center">
+    <br>
+    <h2><b>Responsive WebPage Design</b></h2>
+	<h2 class="mt-4">Unit 2: Bootstrap Grid</h2>
+	</div>
+	<br>
+	
+	 <div class="container p-4 border border-primary">
+	<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-unit1-tab" data-bs-toggle="pill" data-bs-target="#pills-unit1" type="button" role="tab" aria-controls="pills-unit1" aria-selected="true">Unit 2.1</button>
+  </li>
+    <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-unit2-tab" data-bs-toggle="pill" data-bs-target="#pills-unit2" type="button" role="tab" aria-controls="pills-unit2" aria-selected="false">Unit 2.2</button>
+  </li>
+    <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-unit3-tab" data-bs-toggle="pill" data-bs-target="#pills-unit3" type="button" role="tab" aria-controls="pills-unit3" aria-selected="false">Unit 2.3</button>
+  </li>
+    <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-unit4-tab" data-bs-toggle="pill" data-bs-target="#pills-unit4" type="button" role="tab" aria-controls="pills-unit4" aria-selected="false">Unit 2.4</button>
+  </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-unit1" role="tabpanel" aria-labelledby="pills-unit1" tabindex="0">
+  <h2>2.1 Bootstrap Grid</h2>
+  <p class="mt-4">Bootstrap's grid system allows up to 12 columns across the page. If you do not want to
+use all 12 column individually, you can group the columns together to create wider
+columns:
+</p>
+<img src="4.png" class="img-fluid w-50 mx-auto d-block mt-4">
+  <p class="mt-4">Bootstrap's grid system is responsive, and the columns will re-arrange depending on
+the screen size: On a big screen it might look better with the content organized in three
+columns, but on a small screen it would be better if the content items were stacked on
+top of each other.
+</p>
+  </div>
+  
+  <div class="tab-pane fade" id="pills-unit2" role="tabpanel" aria-labelledby="pills-unit2" tabindex="0">
+	  <h2>2.2 Grid Classes</h2>
+	 <h6 class="mt-4">The Bootstrap grid system has four classes:</h6>
+<ul>
+  <li>xs (for phones - screens less than 768px wide)</li>
+  <li>sm (for tablets - screens equal to or greater than 768px wide)</li>
+  <li>md (for small laptops - screens equal to or greater than 992px wide)</li>
+  <li>lg (for laptops and desktops - screens equal to or greater than 1200px wide)</li>
+</ul>
+<p class="mt-4">The classes above can be combined to create more dynamic and flexible layouts.</p>
+
+  </div>
+  
+  <div class="tab-pane fade" id="pills-unit3" role="tabpanel" aria-labelledby="pills-unit3" tabindex="0">
+  <h2>2.3 Grid System Rules</h2>
+	 <h6 class="mt-4">Some Bootstrap grid system rules:</h6>
+<ul>
+  <li class="mt-2">Rows must be placed within a .container (fixed-width) or .container-fluid (fullwidth) for proper alignment and padding</li>
+  <li class="mt-2">Use rows to create horizontal groups of columns</li>
+  <li class="mt-2">Content should be placed within columns, and only columns may be immediate
+children of rows</li>
+  <li class="mt-2">Predefined classes like .row and .col-sm-4 are available for quickly making grid
+layouts
+</li>
+  <li class="mt-2">Columns create gutters (gaps between column content) via padding. That
+padding is offset in rows for the first and last column via negative margin on
+.rows</li>
+  <li class="mt-2">Grid columns are created by specifying the number of 12 available columns you
+wish to span. For example, three equal columns would use three .col-sm-4
+	</li>
+  <li class="mt-2">Column widths are in percentage, so they are always fluid and sized relative to
+their parent element</li>
+</ul>
+
+  </div>
+  
+  <div class="tab-pane fade" id="pills-unit4" role="tabpanel" aria-labelledby="pills-unit4" tabindex="0">
+    <h2>2.4 Apply Bootstrap Grid, Container, Offset Column, Reordering
+Columns
+</h2>
+  <h6 class="mt-4">The following table summarizes how the Bootstrap grid system works across multiple
+devices:
+</h6>
+<img src="5.png" class="img-fluid w-100 mx-auto d-block mt-4">
+  </div>
+</div>
+</div>
+<br><br>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

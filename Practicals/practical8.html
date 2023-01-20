@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practical-8</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <br>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-2 mt-1">
+                <img src="3.png" class="img-fluid" width="100px;" alt="">
+            </div>
+
+            <div class="col-10 mt-2">
+                <h1>Government Polytechnic Himatnagar</h1>
+                <h3>Computer Engineering Department</h3>
+            </div>    
+        </div>
+        <hr>
+        <h5>👨‍🎓👩‍🎓 Student Registration Form</h5>
+    </div>
+    <h1></h1>
+    
+    <div class="container p-5">
+        <form>
+            <div class="row">
+                <label for="date">Student Name</label> 
+                <div class="col-sm-4">
+                  <input type="text" class="form-control" placeholder="First Name" aria-label="First Name" required>
+                </div>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" placeholder="Middle Name" aria-label="Middle Name" required>
+                  </div>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control" placeholder="Last Name" aria-label="Last Name" required>
+                </div>
+              </div>
+
+              <br>
+              <div class="row">
+                <div class="col-6">
+                    <label for="date">Birth Date</label>
+                   <input type="date" class="form-control" name="" id="date" required>
+                </div>
+                <div class="col-6">
+                    <label for="date">Gender</label>   
+                    <select class="form-select" aria-label="Default select example" required>
+                        <option selected>Select</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                      </select>
+                </div>
+              </div>
+
+              <br>
+              <div class="row">
+                <div class="col-6">
+                    <label for="date">Mobile Number</label>   
+                    <input type="number" class="form-control" name="" id="" required>
+                </div>
+
+                <div class="col-6">
+                    <label for="date">Email Id</label>
+                   <input type="email" class="form-control" name="" id="" required>
+                </div>
+              </div>
+
+              <br>
+              <div class="row">
+                <div class="col">
+                    <label for="">Address</label>
+                    <textarea class="form-control" rows="3" required></textarea>
+                </div>
+              </div>
+
+              <br>
+              <div class="row">
+                <div class="col-6">
+                    <label for="">State</label>
+                    <input type="text" class="form-control" name="" id="" required>
+                </div>
+                <div class="col-6">
+                    <label for="">City</label>
+                    <input type="text" class="form-control" name="" id="" required>
+                </div>
+              </div>
+
+              <br>
+              <div class="row">
+                <div class="col">
+                    <label for="">Passport Size Photo (.jpeg / .jpg)</label>
+                    <input type="file" class="form-control" name="" id="" accept="image/png, image/jpeg" required>
+                </div>
+              </div>
+
+              <br>
+              <div class="row">
+                <div class="col">
+                    <label for="">School Leaving Certificate (.pdf)</label>
+                    <input type="file" class="form-control" name="" id="" accept="application/pdf" required>
+                </div>
+              </div>
+
+              <br>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+                <label class="form-check-label" for="flexCheckDefault">
+                  I Accept The College Student Policy
+                </label>
+              </div>
+
+              <br>
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-primary" type="submit">Submit</button>
+              </div>
+          </form>
+    </div>
+    
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

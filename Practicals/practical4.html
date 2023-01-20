@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practical-4</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <h3 class="m-3">Offset Column</h3>
+	<div class="container text-center">
+  <div class="row">
+    <div class="col-md-4 border">Col 1</div>
+    <div class="col-md-4 offset-md-2 border">Col 2</div>
+  </div>
+</div>
+
+	 <h3 class="m-3">Reordering Column</h3>
+	 <div class="container text-center">
+  <div class="row">
+    <div class="col border">
+      Col-1 No Order
+    </div>
+    <div class="col order-5 border">
+      Col-2 Order-5
+    </div>
+    <div class="col order-1 border">
+      Col-3 Order-1
+    </div>
+  </div>
+</div>
+
+	<h3 class="m-3">Nesting Column</h3>
+<div class="container text-center">
+<div class="row">
+<div class="col-3 border">
+col-3
+</div>
+  <div class="col-9 border">
+    Main Col-9
+    <div class="row">
+      <div class="col-6 border">
+        Col-6
+      </div>
+      <div class="col-6 border">
+        Col-6
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

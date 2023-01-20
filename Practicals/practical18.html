@@ -1,0 +1,138 @@
+<html>
+<head>
+<style>  
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,900);
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family:'Lato', sans-serif !important;
+	font-size: 13pt !important;
+	font-weight: 300 !important;
+}
+
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+#myPageContent, section { 
+	height:100% !important; 
+	width:100% !important;
+}
+
+#home { background-color: #00B274; }
+#about { background-color: #0096D6;}
+#details { background-color: #D75BA2;}
+#contact { background-color: #E9AC40;}
+footer { 
+	background-color: #31353A;
+	color: #FFF;
+	text-align: right;
+	font-size: 10pt !important;
+	padding: 30px;
+}
+
+
+
+.myLogo { 
+	max-height: 20px;
+	height: 100%;
+	width: 300px;
+	font-family: 'Lato', sans-serif;
+	color: #FFF;
+}
+.myLogo span { color: #F05557; font-weight:normal; }
+
+.navbar {
+	opacity: 0.9;
+	filter: Alpha(opacity=90); /* IE8 and earlier */
+}
+.navbar ul li { 
+	color: #FFF !important;
+	font-size: 13pt !important;
+}
+.navbar .active a, .nav a:focus {
+	color:#F05557 !important;
+	background-color: transparent !important;
+}
+
+/* Menu - Animação */
+.navbar-nav a::before, .navbar-nav a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+.navbar-nav a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+.navbar-nav a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+.navbar-nav a:hover, .navbar-nav a:hover::before, .navbar-nav a:hover::after, .navbar-nav a:focus::before, .navbar-nav a:focus::after {
+	color:#F05557 !important;
+	background-color: transparent !important;	
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+</style>
+
+</head>
+<body data-spy="scroll" data-offset="0" data-target="#myNavbar">
+	
+	<!-- Navigation Bar -->
+	<nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="container">
+			<!-- Menu responsivo -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+				<!-- Logo -->
+				<a class="navbar-brand myLogo" href="#">Responsive Web Page<span> Design</span></a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#details">Details</a></li>
+					<li><a href="#contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<!-- All Content Page -->
+	<div id="myPageContent" class="container-fluid">
+		<section id="home"><Div></br></br><h1>Home Page</h1></div></section>
+		<section id="about"><Div></br></br><h1>About Us Page</h1></div></section>
+		<section id="details"><Div></br></br><h1>Details Page</h1></div></section>
+		<section id="contact"><Div></br></br><h1>Contact Us Page</h1></div></section>
+		<footer>Responsive Web Page Design</footer>
+	</div>
+	
+<script src="bootstrap-4.3.1-dist/js/jquery.min.js"></script>
+<script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
